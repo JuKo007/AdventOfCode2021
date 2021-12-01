@@ -1,3 +1,6 @@
-# files to be ignore
-./ID_code.txt
-
+# files to be ignored (updated)
+.ID_code.txt
+*.RData
+*.rdata
+*.rds
+*.Rhistory
