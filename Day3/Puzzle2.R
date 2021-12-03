@@ -15,7 +15,7 @@ colnames(data) <- "binary"
 
 # splitting the data into single digits
 splitlist <- strsplit(as.character(data$binary),"")
-splitmatrix <- t(matrix(unlist(splitlist), ncol = 1000, nrow = 12)) # something goes wrong in this conversion
+splitmatrix <- t(matrix(unlist(splitlist), ncol = 1000, nrow = 12))
 data <- as.data.frame(splitmatrix)
 colnames(data) <- c("bit1","bit2","bit3","bit4","bit5","bit6","bit7","bit8","bit9","bit10","bit11","bit12")
 
