@@ -52,3 +52,6 @@ for (i in 1:dim(data)[1]){
   print(paste(data$direction[i],aim,horizontal_pos,depth))
   
 }
+
+# multiplying final depth by hoprizontal_pos
+depth*horizontal_pos

@@ -1,7 +1,7 @@
 #### Setup ####
 
 # setting working directory
-setwd("C:/Users/julia/Desktop/AdventofCode2021/Day1")
+setwd("C:/Users/julia/Desktop/Drive/AdventofCode2021/Day1")
 
 # importing input
 data <- read.table("input1.txt", sep="\n")
